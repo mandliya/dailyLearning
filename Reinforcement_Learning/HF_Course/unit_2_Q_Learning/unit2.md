@@ -135,3 +135,4 @@ For our example:
 ## Temporal Difference Methods
 Temporal Difference (TD) methods update the value function after every time-step. TD methods update the value function based on the estimated return $R_{t+1} + \gamma V(S_{t+1})$.
 
+$$\gamma \sum_{s' \in S} P(s'| s, \pi(s))V^\pi(s')$$
